@@ -23,9 +23,8 @@ namespace LibraryManagerWebChatForWebApi
                 .EnableSwagger(c =>
                     {
                        
-                        c.SingleApiVersion("v1.0.0", "图书馆管理小程序端Weapi文档接口");
+                        c.SingleApiVersion("v1.0.0", "LibraryManagerWebChatForWebApi");
                         c.IncludeXmlComments(GetXmlCommentsPath());
-                        c.UseFullTypeNameInSchemaIds();
                         c.CustomProvider((defaultProvider) => new CachingSwaggerProvider(defaultProvider));
 
                     })

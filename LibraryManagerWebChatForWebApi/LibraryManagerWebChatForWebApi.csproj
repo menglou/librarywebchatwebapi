@@ -109,8 +109,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="SwaggerUI\css\screen.css" />
     <EmbeddedResource Include="SwaggerUI\hanhua.js" />
+    <Content Include="SwaggerUI\css\screen.css" />
     <Content Include="SwaggerUI\images\pet_store_api.png" />
     <Content Include="SwaggerUI\images\wordnik_api.png" />
     <Content Include="SwaggerUI\index.html" />
@@ -120,7 +120,7 @@
     <Content Include="SwaggerUI\lib\jquery.min.js" />
     <Content Include="SwaggerUI\lib\jquery.slideto.min.js" />
     <Content Include="SwaggerUI\lib\jquery.wiggle.min.js" />
-    <Content Include="SwaggerUI\lib\swagger.js" />
+    <EmbeddedResource Include="SwaggerUI\lib\swagger.js" />
     <Content Include="SwaggerUI\lib\underscore-min.js" />
     <Content Include="SwaggerUI\swagger-ui.js" />
     <Content Include="SwaggerUI\swagger-ui.min.js" />

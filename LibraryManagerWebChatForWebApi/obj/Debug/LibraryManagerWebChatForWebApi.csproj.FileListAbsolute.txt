@@ -35,6 +35,5 @@ F:\测试项目\LibraryManagerWebChatForWebApi\LibraryManagerWebChatForWebApi\bi
 F:\测试项目\LibraryManagerWebChatForWebApi\LibraryManagerWebChatForWebApi\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
 F:\测试项目\LibraryManagerWebChatForWebApi\LibraryManagerWebChatForWebApi\bin\zh-Hans\System.Web.Http.resources.dll
 F:\测试项目\LibraryManagerWebChatForWebApi\LibraryManagerWebChatForWebApi\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
-F:\测试项目\LibraryManagerWebChatForWebApi\LibraryManagerWebChatForWebApi\obj\Debug\LibraryManagerWebChatForWebApi.csprojResolveAssemblyReference.cache
 F:\测试项目\LibraryManagerWebChatForWebApi\LibraryManagerWebChatForWebApi\obj\Debug\LibraryManagerWebChatForWebApi.dll
 F:\测试项目\LibraryManagerWebChatForWebApi\LibraryManagerWebChatForWebApi\obj\Debug\LibraryManagerWebChatForWebApi.pdb
