@@ -10,10 +10,10 @@ namespace LibraryManagerWebChatForWebApi.Controllers
      
     public class BooksController : ApiController
     {
-        //[HttpPost]
-        //public string AddNewBooks()
-        //{
-        //    return "添加成功";
-        //}
+        [HttpPost]
+        public string AddNewBooks()
+        {
+            return "添加成功";
+        }
     }
 }
