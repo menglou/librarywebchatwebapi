@@ -1,0 +1,4 @@
+F:\测试项目\LibraryManagerWebChatForWebApi\Entity\bin\Debug\Entity.dll
+F:\测试项目\LibraryManagerWebChatForWebApi\Entity\bin\Debug\Entity.pdb
+F:\测试项目\LibraryManagerWebChatForWebApi\Entity\obj\Debug\Entity.dll
+F:\测试项目\LibraryManagerWebChatForWebApi\Entity\obj\Debug\Entity.pdb

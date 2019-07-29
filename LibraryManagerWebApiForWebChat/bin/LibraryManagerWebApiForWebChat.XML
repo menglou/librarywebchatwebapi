@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraryManagerWebApiForWebChat</name>
+    </assembly>
+    <members>
+        <member name="M:LibraryManagerWebApiForWebChat.SwaggerConfig.CachingSwaggerProvider.GetControllerDesc">
+            <summary>
+            ´ÓAPIÎÄµµÖÐ¶ÁÈ¡¿ØÖÆÆ÷ÃèÊö
+            </summary>
+            <returns>ËùÓÐ¿ØÖÆÆ÷ÃèÊö</returns>
+        </member>
+        <member name="T:LibraryManagerWebApiForWebChat.Authorize.RequestAuthorizeAttribute">
+            <summary>
+            自定义身份验证
+            </summary>
+        </member>
+        <member name="M:LibraryManagerWebApiForWebChat.Authorize.RequestAuthorizeAttribute.OnAuthorization(System.Web.Http.Controllers.HttpActionContext)">
+            <summary>
+            身份验证
+            </summary>
+            <param name="actionContext"></param>
+        </member>
+        <member name="T:LibraryManagerWebApiForWebChat.Controllers.BooksController">
+            <summary>
+            图书模块
+            </summary>
+        </member>
+        <member name="M:LibraryManagerWebApiForWebChat.Controllers.BooksController.AddNewBook">
+            <summary>
+            添加图书
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LibraryManagerWebApiForWebChat.Controllers.SysAdminController">
+            <summary>
+            用户登录模块
+            </summary>
+        </member>
+    </members>
+</doc>
