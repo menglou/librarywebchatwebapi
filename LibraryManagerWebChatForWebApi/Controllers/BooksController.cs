@@ -9,6 +9,6 @@ namespace LibraryManagerWebChatForWebApi.Controllers
 {
     public class BooksController : ApiController
     {
-
+        int s = 0;
     }
 }
