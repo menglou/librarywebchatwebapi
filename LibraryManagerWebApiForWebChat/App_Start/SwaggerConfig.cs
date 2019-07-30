@@ -26,10 +26,12 @@ namespace LibraryManagerWebApiForWebChat
                         c.IncludeXmlComments(GetXmlCommentsPath());
                         c.CustomProvider((defaultProvider) => new CachingSwaggerProvider(defaultProvider));//汉化Swagger两步：第一步
 
+                        c.OperationFilter<GlobalHttpHeaderFilter>();//添加过滤器，增加Token令牌验证
                     })
                 .EnableSwaggerUi(c =>
                     {
                         c.InjectJavaScript(thisAssembly, "LibraryManagerWebApiForWebChat.SwaggerUI.hanhua.js");
+                       
                     });
         }
 

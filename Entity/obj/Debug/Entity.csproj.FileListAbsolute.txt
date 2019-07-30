@@ -2,3 +2,7 @@ F:\测试项目\LibraryManagerWebChatForWebApi\Entity\bin\Debug\Entity.dll
 F:\测试项目\LibraryManagerWebChatForWebApi\Entity\bin\Debug\Entity.pdb
 F:\测试项目\LibraryManagerWebChatForWebApi\Entity\obj\Debug\Entity.dll
 F:\测试项目\LibraryManagerWebChatForWebApi\Entity\obj\Debug\Entity.pdb
+F:\测试项目\自己建的github上的项目\新建文件夹\librarywebchatwebapi\Entity\bin\Debug\Entity.dll
+F:\测试项目\自己建的github上的项目\新建文件夹\librarywebchatwebapi\Entity\bin\Debug\Entity.pdb
+F:\测试项目\自己建的github上的项目\新建文件夹\librarywebchatwebapi\Entity\obj\Debug\Entity.dll
+F:\测试项目\自己建的github上的项目\新建文件夹\librarywebchatwebapi\Entity\obj\Debug\Entity.pdb

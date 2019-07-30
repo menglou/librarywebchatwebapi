@@ -136,6 +136,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="GlobalHttpHeaderFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,10 @@
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{e337febf-8a72-40a9-afff-ad7bd8afc9f7}</Project>
       <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{d6a686d3-ba63-47a9-93e9-815895f13155}</Project>
+      <Name>Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\Entity\Entity.csproj">
       <Project>{86c4e928-5115-479d-929e-6e77e3e5d32c}</Project>

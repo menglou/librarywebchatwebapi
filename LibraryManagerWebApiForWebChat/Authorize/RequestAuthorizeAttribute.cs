@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -53,33 +54,32 @@ namespace LibraryManagerWebApiForWebChat.Authorize
             //从Ticket里面获取用户名和密码
           
 
-            //var sysadminobject = Newtonsoft.Json.JsonConvert.DeserializeObject<EntityModel.SysAdmin>(strTicket);
+            var sysadminobject = Newtonsoft.Json.JsonConvert.DeserializeObject<Entity.SysAdmin>(strTicket);
 
             //var index = strTicket.IndexOf("&");
             //string strUser = strTicket.Substring(0, index);
             //string strPwd = strTick`et.Substring(index + 1);
             //if(DateTime.Now<time)
             //{
-            if (isexired)
+            if (!isexired)
             {
-                //SysAdmin objsysadmin = new SysAdmin
-                //{
-                //    AdminName = sysadminobject.AdminName,
-                //    LoginPwd = sysadminobject.LoginPwd
-                //};
+                SysAdmin objsysadmin = new SysAdmin
+                {
+                    AdminId = sysadminobject.AdminId,
+                    LoginPwd = sysadminobject.LoginPwd
+                };
 
-                //SysAdmin sysadminobj = new BLL.SysAdmin.SysAdminBLL().SelectSysAdminInfo(DAL.SQLID.SysAdmin.SysAdmin.select_sysadmin, objsysadmin);
+                SysAdmin sysadminobj = new BLL.SysAdminBLL().Login( objsysadmin);
 
-                //if (!string.IsNullOrEmpty(sysadminobj.AdminId.ToString()))
-                //{
-                //    return true;
-                //}
+                if (!string.IsNullOrEmpty(sysadminobj.AdminId.ToString()))
+                {
+                    return true;
+                }
 
-                //else
-                //{
-                //    return false;
-                //}
-                return true;
+                else
+                {
+                    return false;
+                }
                 //如上红色部分所示的是根据票据中存储的信息去数据中查询
             }
             else

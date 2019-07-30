@@ -40,7 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Books.cs" />
+    <Compile Include="BorrowDetail.cs" />
+    <Compile Include="BorrowInfo.cs" />
+    <Compile Include="Category.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publisher.cs" />
+    <Compile Include="ReaderRoles.cs" />
+    <Compile Include="Readers.cs" />
+    <Compile Include="ReturnBook.cs" />
     <Compile Include="SysAdmin.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
