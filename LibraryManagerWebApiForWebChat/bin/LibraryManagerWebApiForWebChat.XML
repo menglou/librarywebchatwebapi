@@ -21,14 +21,25 @@
             </summary>
             <param name="actionContext"></param>
         </member>
+        <member name="T:LibraryManagerWebApiForWebChat.Base.BaseApiController">
+            <summary>
+            四道口
+            </summary>
+        </member>
         <member name="T:LibraryManagerWebApiForWebChat.Controllers.BooksController">
             <summary>
             图书模块
             </summary>
         </member>
-        <member name="M:LibraryManagerWebApiForWebChat.Controllers.BooksController.AddNewBook">
+        <member name="M:LibraryManagerWebApiForWebChat.Controllers.BooksController.AddNewBook(Entity.Books)">
             <summary>
             添加图书
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LibraryManagerWebApiForWebChat.Controllers.BooksController.UpdateBookInfo(Entity.Books)">
+            <summary>
+            更改图书信息
             </summary>
             <returns></returns>
         </member>

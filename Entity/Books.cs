@@ -62,13 +62,13 @@ namespace Entity
         }
         public DateTime PublishDate { get; set; }
 
-        private Guid? bookcategory = null;
-        public Guid? BookCategory
+        private Guid? categoryId = null;
+        public Guid? CategoryId
         {
-            get { return bookcategory; }
+            get { return categoryId; }
             set
             {
-                bookcategory = value;
+                categoryId = value;
 
             }
         }
